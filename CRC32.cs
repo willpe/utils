@@ -1,5 +1,7 @@
 ﻿// --------------------------------------------------------------------------
-//  Copyright (c) 2014 Will Perry, Microsoft
+//  Copyright (c) 2014 Damien Guard
+//
+//  Source: https://github.com/damieng/DamienGKit/blob/master/CSharp/DamienG.Library/Security/Cryptography/Crc32.cs
 //  
 //  Licensed under the Apache License, Version 2.0 (the "License");
 //  you may not use this file except in compliance with the License.
