@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>willpe.Utils</id>
-      <version>$version$</version>
+        <version>1.1.0</version>
         <title>WillPe Utilities</title>
         <authors>Will Perry</authors>
         <owners>willpe@microsoft.com</owners>
@@ -13,6 +13,7 @@
         <summary>A set of utility classes for .net
 
 For tutorials, documentation and examples, see https://github.com/willpe/utils</summary>
-        <copyright>Copyright 2014 Will Perry, Microsoft</copyright>
+        <releaseNotes>v1.1.0 adds ConcurrentSHA1 and Deterministic Guid.</releaseNotes>
+        <copyright>Copyright 2017 Will Perry, Microsoft</copyright>
     </metadata>
 </package>

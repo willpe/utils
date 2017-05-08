@@ -24,7 +24,7 @@ public Task DoThing()
 
 ### Concurrent Hashing Algorithms
 
-A few of the more frequently used hashing algorithms (CRC32, MD5, SHA256) are included with concurrent wrappers. These make the non-thread safe hashing algorithms effectively thread safe by using one instance per thread.
+A few of the more frequently used hashing algorithms (CRC32, MD5, SHA256, SHA1) are included with concurrent wrappers. These make the non-thread safe hashing algorithms effectively thread safe by using one instance per thread.
 
 ````
 ConcurrentSHA256.ComputeHash("Value...");
@@ -35,6 +35,10 @@ Results will be Base64 Encoded.
 ### CRC32
 
 Includes [Damien Guard's CRC32 Implementation for C#](https://github.com/damieng/DamienGKit/blob/master/CSharp/DamienG.Library/Security/Cryptography/Crc32.cs). Thanks Damien!
+
+### Deterministic Guid
+
+Includes [Logos Bible Software's Implementation of RFC 4122 (Section 4.3) C#](https://github.com/LogosBible/Logos.Utility/blob/master/src/Logos.Utility/GuidUtility.cs) as `DeteministicGuid`. Thanks!
 
 ## Encoding and Serializing
 

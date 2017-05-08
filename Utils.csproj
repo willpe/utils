@@ -44,6 +44,7 @@
     <Compile Include="ConcurrentCRC32.cs" />
     <Compile Include="ConcurrentMD5.cs" />
     <Compile Include="ConcurrentRandom.cs" />
+    <Compile Include="ConcurrentSHA1.cs" />
     <Compile Include="ConcurrentSHA256.cs" />
     <Compile Include="ConnectionString.cs" />
     <Compile Include="CRC32.cs" />
@@ -54,6 +55,7 @@
     <Compile Include="DateTimeUtil.cs" />
     <Compile Include="DateTimeWindow.cs" />
     <Compile Include="EnumerableExtensions.cs" />
+    <Compile Include="DeterministicGuid.cs" />
     <Compile Include="HexEncoding.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UnixTimestamp.cs" />
